@@ -1,0 +1,81 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5DD25;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: saddlebrown;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img{
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    border: 3px solid black;
+}
+
+.button{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #0cc042;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 75px;
+}
+
+.bonitao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+    background: transparent;
+}
+
+main{
+    background: #F7E76F;
+    width: auto;
+    border: 1px solid saddlebrown;
+    padding: 40px;
+    border-radius: 5px;
+}
