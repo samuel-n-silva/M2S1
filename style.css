@@ -66,16 +66,21 @@ img{
 input{
     padding: 10px;
     margin: 5px;
-    border: 2px solid;
+    border: 1px solid saddlebrown;
     border-radius: 5px;
     color: black;
     background: transparent;
+    outline: none;
+}
+
+::placeholder{
+    color: #000;
 }
 
 main{
     background: #F7E76F;
     width: auto;
     border: 1px solid saddlebrown;
-    padding: 40px;
+    padding: 3rem;
     border-radius: 5px;
 }
